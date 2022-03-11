@@ -1,0 +1,48 @@
+body{
+    background:black url(georgesbackdrop.png) no-repeat;
+    background-size: 1448px 800px;
+    backdrop-filter: contrast(115%) brightness(90%);
+    font-family: cursive;
+    overflow: hidden;
+    }
+    .background-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    h1,h2,p{
+        color: antiquewhite;
+    }
+    .part1,.part2,.part3,.part4{
+        font-size: larger;
+    color: antiquewhite;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    right: 50%;
+    bottom: 50%;
+    }
+    
+    .titlepage{
+        position:fixed;
+        top: 30%;
+        left: 43%;
+        right: 50%;
+        bottom: 50%;
+        text-align: center;
+    }
+    #canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+      }   
+    #banner {
+        position: relative;
+        width: 1500px;
+        height: 800px;
+        margin: 8px; 
+      }
